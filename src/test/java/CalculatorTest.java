@@ -17,13 +17,13 @@ class CalculatorTest {
     @Test
     void multiply() {
         int res = a*b;
-        assertTrue(calc.add(a, b) == res, "multiplication de a et b");
+        assertTrue(calc.multiply(a, b) == res, "multiplication de a et b");
     }
 
     @Test
     void divide() {
         int res = a/b;
-        assertTrue(calc.add(a, b) == res, "division de a et b");
+        assertTrue(calc.divide(a, b) == res, "division de a et b");
     }
 
     @Test
@@ -35,6 +35,6 @@ class CalculatorTest {
     @Test
     void substract() {
         int res = a-b;
-        assertTrue(calc.add(a, b) == res, "soustraction de a et b");
+        assertTrue(calc.substract(a, b) == res, "soustraction de a et b");
     }
 }
